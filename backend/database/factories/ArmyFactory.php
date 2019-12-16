@@ -22,6 +22,5 @@ $factory->define(Army::class, function (Faker $faker) {
         'name' => $faker->name,
         'units' => $faker->numberBetween($min = 80, $max = 100),
         'strategy' => $faker->randomElement(['random', 'weakest', 'strongest']),
-        'game_id' => Game::all()->random()->id
     ];
 });

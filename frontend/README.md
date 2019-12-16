@@ -8,6 +8,9 @@
 # install dependencies
 npm install
 
+# setup backend endpoint in src/main.js
+Vue.http.options.root = 'http://127.0.0.1:8000/';
+
 # serve with hot reload at localhost:8080
 npm run dev
 

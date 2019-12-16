@@ -19,6 +19,6 @@ use Faker\Generator as Faker;
 
 $factory->define(Game::class, function (Faker $faker) {
     return [
-        'status' => $faker->randomElement(['active', 'finished', 'pending']),
+        'status' => 'pending',
     ];
 });

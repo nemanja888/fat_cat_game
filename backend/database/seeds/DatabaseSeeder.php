@@ -13,7 +13,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        factory(Game::class, 5)->create();
-        factory(Army::class, 15)->create();
+        factory(Game::class, 5)->create()->each(function ($game) {
+            $armyNum = mt_rand(1, 4);
+            for ($i = 1; $i <= $armyNum; $i++){
+                $game->armies()->save(factory(App\Army::class)->make());
+            }
+        });
     }
 }
