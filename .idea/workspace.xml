@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c369435-c236-4d01-8ff8-b6195b6145ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/app/Repositories/ArmyRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Repositories/GameRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Repositories/Interfaces/RepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Repositories/Repository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Traits/ApiResponser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Traits/AttackTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/boilerplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AddArmy.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Battle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Army.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Army.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/ArmyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/ArmyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/GameController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/GameController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/factories/GameFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/factories/GameFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2019_12_12_123350_create_games_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2019_12_12_123350_create_games_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2019_12_12_123412_create_armies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2019_12_12_123412_create_armies_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
-    </list>
+    <list default="true" id="3c369435-c236-4d01-8ff8-b6195b6145ec" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#7#20#0#PHP" expanded="true" />
               </folding>
@@ -368,6 +338,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fat_cat_buttle_game" />
@@ -406,16 +377,15 @@
       <workItem from="1576416829678" duration="346000" />
       <workItem from="1576444255433" duration="8406000" />
       <workItem from="1576487952177" duration="15279000" />
-      <workItem from="1576504750218" duration="15229000" />
+      <workItem from="1576504750218" duration="15477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83612000" />
+    <option name="totallyTimeSpent" value="83860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14007781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -703,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#7#20#0#PHP" expanded="true" />
           </folding>
