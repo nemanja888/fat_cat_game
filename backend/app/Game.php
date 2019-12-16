@@ -12,4 +12,12 @@ class Game extends Model
         'name',
         'status'
     ];
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function armies()
+    {
+        return $this->hasMany(Army::class);
+    }
 }

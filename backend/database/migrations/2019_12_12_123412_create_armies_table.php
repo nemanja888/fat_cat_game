@@ -18,6 +18,7 @@ class CreateArmiesTable extends Migration
             $table->string('name');
             $table->integer('units');
             $table->string('strategy');
+            $table->boolean('can_attack')->default(true);
 
             $table->bigInteger('game_id')->unsigned()->nullable();
             $table->foreign('game_id')->references('id')->on('games')->onUpdate('cascade')->onDelete('set null');

@@ -11,6 +11,15 @@ class Army extends Model
     protected $fillable = [
         'name',
         'units',
-        'strategy'
+        'strategy',
+        'game_id'
     ];
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function game()
+    {
+        return $this->belongsTo(Game::class);
+    }
 }
